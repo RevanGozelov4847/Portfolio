@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+body .main {
+  background-image: url("http://wp1.themexlab.com/wp/cards/wp-content/themes/cards/img/bg1.jpg");
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body .main .card {
+  border-top: 5px solid black;
+  background: url("http://wp1.themexlab.com/wp/cards/wp-content/themes/cards/img/bg-card2.png") repeat-x right top #f4f4f4;
+  padding: 2rem;
+  text-align: center;
+  width: 430px;
+  height: 500px;
+}
+body .main .card .card-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+body .main .card .card-image img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  border: 6px solid #ddd;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body .main .card .card-header h1 #nameSurname {
+  color: #08aeac;
+}
+body .main .card .card-header h2 {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+body .main .card .card-header .hr1 {
+  border: none;
+  height: 1px;
+  width: 100%;
+  background: url("http://wp1.themexlab.com/wp/cards/wp-content/themes/cards/img/hr1.png") no-repeat center center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+body .main .card .card-header .card-main {
+  padding: 0 2.3rem;
+}
+body .main .card .card-header .card-main .card-info {
+  margin-bottom: 15px;
+  border-radius: 5px;
+  padding: 1px;
+  background: url("http://wp1.themexlab.com/wp/cards/wp-content/themes/cards/img/bg-btn.png") no-repeat center center #08aeac;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+body .main .card .card-header .card-main .card-info p {
+  font-size: 12px;
+  color: white;
+}
+body .main .card .card-header .card-main p {
+  font-size: 13px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+body .main .card .card-header .card-footer .fa-brands {
+  color: white;
+  background-color: #333333;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  text-align: center;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  font-size: 14px;
+  line-height: 30px;
+}/*# sourceMappingURL=design.css.map */

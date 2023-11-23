@@ -1,0 +1,102 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(215, 242, 237);
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border-bottom: 2px solid black;
+}
+header h2 {
+  text-align: center;
+  color: rgb(243, 147, 18);
+  padding: 20px 30px;
+  margin: 20px 0;
+}
+header .navbar {
+  margin: 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  gap: 30px;
+}
+header .navbar a {
+  text-decoration: none;
+  color: rgb(178, 12, 12);
+  font-size: 22px;
+}
+
+.profileInfo {
+  background-color: rgb(215, 242, 237);
+  margin: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 30px;
+     -moz-column-gap: 30px;
+          column-gap: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.profileInfo .profileImg {
+  border-radius: 8px;
+  height: 280px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 0;
+}
+.profileInfo .profileText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  row-gap: 10px;
+  margin: 0;
+  font-size: 22px;
+}
+
+.title-skills {
+  text-align: center;
+  padding: 20px 30px;
+  margin: 20px 0;
+  color: rgb(254, 91, 41);
+  font-size: 30px;
+}
+
+.skills {
+  background-color: rgb(215, 242, 237);
+  margin: 0 80px;
+}
+.skills table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+.skills td,
+.skills th {
+  border: 1px solid #052107;
+  text-align: left;
+  padding: 8px;
+}
+.skills th {
+  background-color: #875858;
+}/*# sourceMappingURL=index.css.map */

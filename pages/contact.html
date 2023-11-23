@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../dist/contact.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h2>Contact me</h2>
+      <div class="navbar">
+        <a href="/index.html" target="_blank">Home</a>
+        <a href="./about.html" target="_blank">About</a>
+        <a href="./design.html" target="_blank">Digital Card</a>
+        <a href="https://github.com/RevanGozelov4847" target="_blank">GitHub</a>
+        <a href="https://revangozelov4847.github.io/Assign1/" target="_blank">Page</a>
+
+      </div>
+    </header>
+    <form
+      action="mailto:rgozalov14226@ada.edu.az"
+      target="_blank"
+      method="post"
+      enctype="text/plain"
+    >
+      <label for="name">Name</label>
+      <input type="text" name="name" id="name" placeholder="Write a name" />
+      <label for="surname">Surname</label>
+      <input
+        type="text"
+        name="surname"
+        id="surname"
+        placeholder="Write a surname"
+      />
+      <div class="radio">
+        <input type="radio" name="gender" id="male" value="Male" />
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="Female" />
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="other" value="Other" />
+        <label for="other">Other</label>
+      </div>
+      <label for="email">Email:</label>
+      <input type="email" name="" id="email" placeholder="Write an email" />
+      <label for="password">Password:</label>
+      <input type="password" id="password" placeholder="Write a password" />
+      <div class="checkbox">
+        <label for="accept">Do you accept the privacy and policy rules?</label>
+        <input type="checkbox" name="accept" />
+      </div>
+      <button>Submit</button>
+    </form>
+  </body>
+</html>

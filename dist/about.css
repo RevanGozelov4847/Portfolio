@@ -1,0 +1,69 @@
+* {
+  background-color: rgb(196, 227, 222);
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+header h2 {
+  text-align: center;
+  padding: 20px 30px;
+  margin: 20px 0;
+  color: rgb(243, 147, 18);
+}
+header .navbar {
+  margin: 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  gap: 30px;
+}
+header .navbar a {
+  text-decoration: none;
+  color: rgb(178, 12, 12);
+  font-size: 22px;
+}
+
+p {
+  margin: 0 80px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 30px;
+  padding-top: 15px;
+  border: 1px solid black;
+  padding: 15px;
+}
+
+h2 {
+  color: rgb(208, 148, 148);
+  text-align: center;
+  padding: 20px 30px;
+  margin: 20px 0;
+}
+
+section .programmingSkills {
+  margin: 0;
+}
+section .programmingSkills table {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+}
+section .programmingSkills td, section .programmingSkills th {
+  border: 1px solid #a59999;
+  text-align: left;
+  padding: 8px;
+}
+section .programmingSkills th {
+  background-color: #875858;
+}/*# sourceMappingURL=about.css.map */

@@ -1,0 +1,26 @@
+*{
+  background-color: rgb(147, 187, 146);
+}
+p{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 30px;
+  padding: 20px;
+}
+.studyInfo{
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  .education{    
+    .educationChronology {
+      display: flex;
+      padding: 0 19px 0 0;
+    }
+  }
+   .work{
+    .workChronology {
+      display: flex;
+      padding: 0 19px 0 0;
+    } 
+   }
+        
+}

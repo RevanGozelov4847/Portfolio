@@ -1,0 +1,63 @@
+*{
+  background-color: rgb(196, 227, 222);
+}
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+  h2 {
+    text-align: center;
+    padding: 20px 30px;
+    margin: 20px 0;
+    color: rgb(243,147,18);
+
+  }
+  .navbar{
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    a{
+        text-decoration: none;
+        color: rgb(178, 12, 12);
+        font-size: 22px;
+    }
+  }
+  }
+  p{
+    margin: 0 80px;
+    font-family: 'Montserrat', sans-serif;
+line-height: 30px;
+padding-top: 15px;
+border: 1px solid black;
+padding: 15px;
+  }
+h2 {
+    color: rgb(208, 148, 148);
+    text-align: center;
+    padding: 20px 30px;
+    margin: 20px 0;
+  }
+section{
+    .programmingSkills{
+        margin: 0;
+        table {
+          margin-left: auto;
+          margin-right: auto;
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 90%;
+          }
+          
+          td, th {
+            border: 1px solid #a59999;
+            text-align: left;
+            padding: 8px;
+          }
+          th{
+            background-color:#875858 ;
+          }
+    }
+}
+

@@ -1,0 +1,78 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(215, 242, 237);
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 2px solid black;
+
+  h2 {
+    text-align: center;
+    color: rgb(243,147,18);
+    padding: 20px 30px;
+    margin: 20px 0;
+  }
+  .navbar {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    a {
+      text-decoration: none;
+      color: rgb(178, 12, 12);
+      font-size: 22px;
+    }
+  }
+}
+.profileInfo {
+  background-color: rgb(215, 242, 237);
+  margin: 30px;
+  display: flex;
+  column-gap: 30px;
+  justify-content: center;
+
+  .profileImg {
+    border-radius: 8px;
+    height: 280px;
+    object-fit: cover;
+    margin: 0;
+  }
+  .profileText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 10px;
+    margin: 0;
+    font-size: 22px;
+  }
+}
+.title-skills {
+  text-align: center;
+  padding: 20px 30px;
+  margin: 20px 0;
+  color: rgb(254,91,41);
+  font-size: 30px;
+}
+.skills {
+  background-color: rgb(215, 242, 237);
+  margin: 0 80px;
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  td,
+  th {
+    border: 1px solid #052107;
+    text-align: left;
+    padding: 8px;
+  }
+  th {
+    background-color: #875858;
+  }
+}
